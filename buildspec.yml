@@ -12,7 +12,8 @@ phases:
     commands:
       - echo Post build complete 
       
-artifacts:
-  files:
-    - '**/*'
-  base-directory: build
+# The code below may be used to store artifacts to s3
+#artifacts:
+#  files:
+#   - '**/*'
+#  base-directory: build
