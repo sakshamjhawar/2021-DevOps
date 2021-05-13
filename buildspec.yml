@@ -7,10 +7,9 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - npm run build
+      # npm run build -> For react application
   post_build:
     commands:
-      # copy the contents of /build to S3
       - echo Post build complete 
       
 artifacts:
